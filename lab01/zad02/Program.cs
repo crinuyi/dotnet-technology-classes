@@ -16,7 +16,7 @@ namespace zad02 {
             Osoba osoba = new Osoba(imie, nazwisko);
             Konto konto = new Konto(osoba);
             Console.WriteLine(" witaj {0} {1}.\n" +
-                " twój PIN to 0000. czy chcesz go zmienić? (T/N)", imie, nazwisko);
+                " twój PIN to 0000. czy chcesz go zmienić? (T/N)", osoba.getImie(), osoba.getNazwisko());
             string yn = Console.ReadLine();
             if (yn == "T")
                 konto.zmienPin();
@@ -24,7 +24,7 @@ namespace zad02 {
             //interfejs
             int i;
             do {
-                Console.WriteLine("podaj twoj wybor:\n" +
+                Console.WriteLine("\npodaj twoj wybor:\n" +
                     "1. zmień PIN\n" +
                     "2. wpłać pieniądze\n" +
                     "3. wypłać pieniądze\n" +
@@ -37,16 +37,16 @@ namespace zad02 {
                         konto.zmienPin();
                         break;
                     case 2:
-                        //konto.wplac();
+                        konto.wplac();
                         break;
                     case 3:
-                        //konto.wyplac();
+                        konto.wyplac();
                         break;
                     case 4:
-                        //konto.sprawdzSaldo();
+                        konto.sprawdzSaldo();
                         break;
                     case 5:
-                        //konto.info();
+                        konto.info();
                         break;
                 }
             } while (i != 6);

@@ -9,6 +9,14 @@ namespace zad02 {
         private string imie;
         private string nazwisko;
 
+        public string getImie() {
+            return imie;
+        }
+
+        public string getNazwisko() {
+            return nazwisko;
+        }
+
         public Osoba(string imie, string nazwisko) {
             this.imie = imie;
             this.nazwisko = nazwisko;
