@@ -9,13 +9,13 @@ Zadanie 2
 --------------
 Twoja firma opracowuje program dla banku. Twoim zadaniem jest stworzenie i przetestowanie klasy Konto. 
 Klasa Konto posiada nastêpuj¹ce pola:
-	Wlasciciel – typu Osoba (Imie i Nazwisko)
-	saldo – typu decimal
-	pin – typu int
-Pola saldo i pin powinny byæ zainicjalizowane wartoœci¹ zero. 
-Pole pin mo¿na zmieniæ tylko podaj¹c obecn¹ wartoœæ pola. 
-Wyp³atê z konta (zmniejszenie wartoœci pola saldo) mo¿na uzyskaæ tylko po podaniu prawid³owego PIN-u. 
-Na koncie nie wolno zrobiæ debetu. 
+- Wlasciciel – typu Osoba (Imie i Nazwisko)
+- saldo – typu decimal
+- pin – typu int
+Pola saldo i pin powinny byæ zainicjalizowane wartoœci¹ zero.
+Pole pin mo¿na zmieniæ tylko podaj¹c obecn¹ wartoœæ pola.
+Wyp³atê z konta (zmniejszenie wartoœci pola saldo) mo¿na uzyskaæ tylko po podaniu prawid³owego PIN-u.
+Na koncie nie wolno zrobiæ debetu.
 Dodaj metodê, która zwraca informacje o koncie, oczywiœcie pod warunkiem, ¿e zosta³ podany prawid³owy PIN.
 
-(c) https://github.com/tborzyszkowski/CS_OOP
+polecenia (c) https://github.com/tborzyszkowski/CS_OOP
