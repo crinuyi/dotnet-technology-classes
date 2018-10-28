@@ -19,8 +19,7 @@ Klasa Adres zawiera nastêpuj¹ce dane:
 - miejscowosc
 - numerDomu
 - numerMieszkania
-Zak³adaj¹c, ¿e najczêœciej spotykanym nazwiskiem jest Kowalski, firma znajduje siê w Warszawie 
-i ma mieszkania pracownicze przy ulicy Aleje Jerozolimskie, stwórz odpowiednie konstruktory. 
+Zak³adaj¹c, ¿e najczêœciej spotykanym nazwiskiem jest Kowalski, firma znajduje siê w Warszawie i ma mieszkania pracownicze przy ulicy Aleje Jerozolimskie, stwórz odpowiednie konstruktory. 
 Dodaj te¿ mo¿liwoœæ kopiowania p³ytkiego i kopiowania g³êbokiego do klasy Osoba.
 
 polecenia (c) https://github.com/tborzyszkowski/CS_OOP
