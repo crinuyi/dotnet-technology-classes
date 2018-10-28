@@ -6,15 +6,21 @@ using System.Threading.Tasks;
 
 namespace zad01 {
     class Engine {
-        private int mileage;
+        private int capacity;
 
         public Engine(int mileage) {
-            this.mileage = mileage;
+            this.capacity = mileage;
         }
 
-        public int getMileage() { return mileage; }
-        public void setMileage(int newMileage) { mileage = newMileage; }
+        public int getMileage() { return capacity; }
+        public void setMileage(int newMileage) { capacity = newMileage; }
 
-        public Engine(Engine prototype) { mileage = prototype.mileage; }
+        public Engine(Engine prototype) {
+            capacity = prototype.capacity;
+        }
+
+        public void changeCapacity(int newCapacity) {
+            capacity = newCapacity;
+        }
     }
 }
