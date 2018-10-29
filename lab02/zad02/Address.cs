@@ -26,5 +26,22 @@ namespace zad02 {
 
         public Address(int houseNumber, int apartmentNumber)
             :this("Aleje Jerozolimskie", "Warszawa", houseNumber, apartmentNumber) { }
+
+        public Address(Address prototype) {
+            streetName = prototype.streetName;
+            city = prototype.city;
+            houseNumber = prototype.houseNumber;
+            apartmentNumber = prototype.apartmentNumber;
+        }
+
+        public string getStreetName() { return streetName; }
+        public string getCity() { return city; }
+        public int getHouseNumber() { return houseNumber; }
+        public int getApartmentNumber() { return apartmentNumber; }
+
+        public void setStreetName(string newStreetName) { streetName = newStreetName; }
+        public void setCity(string newCity) { city = newCity; }
+        public void setHouseNumber(int newHouseNumber) { houseNumber = newHouseNumber; }
+        public void setApartmentNumber(int newApartmentNumber) { apartmentNumber = newApartmentNumber; }
     }
 }
