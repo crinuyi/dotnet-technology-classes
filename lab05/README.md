@@ -9,12 +9,12 @@ Zadanie 2
 Twoim zadaniem jest zaimplementowanie i przetestowanie hierarchii sk³adaj¹cej siê z nastêpuj¹cych klas: 
 Osoba, Student, Wyk³adowca oraz Stypendysta. 
 Poszczególne klasy zawieraj¹ nastêpuj¹ce cechy:
-	- Osoba: imiê, nazwisko, rok urodzenia oraz p³eæ
-	- Student: zawiera wszystkie cechy zawarte w klasie Osoba oraz numer indeksu
-	- Wyk³adowca: zawiera wszystkie cechy zawarte w klasie Osoba oraz tytu³ (tytu³ naukowylub stopieñ naukowy)
-	- Stypendysta: zawiera wszystkie cechy zawarte w klasie Student oraz kwotê stypendium
+- Osoba: imiê, nazwisko, rok urodzenia oraz p³eæ
+- Student: zawiera wszystkie cechy zawarte w klasie Osoba oraz numer indeksu
+- Wyk³adowca: zawiera wszystkie cechy zawarte w klasie Osoba oraz tytu³ (tytu³ naukowy lub stopieñ naukowy)
+- Stypendysta: zawiera wszystkie cechy zawarte w klasie Student oraz kwotê stypendium
 Ka¿da klasa powinna równie¿ zawieraæ:
-	- zestaw odpowiednich konstruktorów
-	- zestaw w³aœciwoœci umo¿liwiaj¹cy zmianê i odczyt odpowiednich pól
-	- metody zwracaj¹cej w postaci napisu pe³n¹ informacjê zawartej w danej klasie 
+- zestaw odpowiednich konstruktorów
+- zestaw w³aœciwoœci umo¿liwiaj¹cy zmianê i odczyt odpowiednich pól
+- metody zwracaj¹cej w postaci napisu pe³n¹ informacjê zawartej w danej klasie 
 
