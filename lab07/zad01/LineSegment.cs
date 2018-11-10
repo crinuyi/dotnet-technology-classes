@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace zad01 {
     class LineSegment : GeometricalFigure {
-        private Coordinate[] coordinates = new Coordinate[2];
+        private new Coordinate[] coordinate = new Coordinate[2];
 
         public LineSegment(string name, int x1, int y1, int x2, int y2) {
             this.name = name;

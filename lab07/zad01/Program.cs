@@ -7,14 +7,17 @@ using System.Threading.Tasks;
 namespace zad01 {
     class Program {
         static void Main(string[] args) {
-            Coordinate[] lineCoordinates = new Coordinate[2];
-            lineCoordinates[0] = new Coordinate(1, 2);
-            lineCoordinates[1] = new Coordinate(6, 8);
-            LineSegment line = new LineSegment("linia", lineCoordinates);
+            LineSegment line = new LineSegment("linia", 1, 2, 6, 8);
             Console.WriteLine(line.Info());
 
             Disk disk = new Disk("koło", 5, 8, 14);
             Console.WriteLine(disk.Info());
+
+            Square square = new Square("kwadrat", 0, 0, 2, 0, 2, 2, 0, 2);
+            Console.WriteLine(square.Info());
+
+            Triangle triangle = new Triangle("trójkąt", 0, 0, 4, 3, 8, 15);
+            Console.WriteLine(triangle.Info());
         }
     }
 }
