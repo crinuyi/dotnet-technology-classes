@@ -77,9 +77,6 @@ namespace zad01 {
                                 car.price + " zł");
                         break;
                     }
-                default:
-                    Console.WriteLine("\tWpisałeś niepoprawną wartość!\n");
-                    break;
             }
         }
     }

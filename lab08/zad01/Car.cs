@@ -67,15 +67,4 @@ namespace zad01 {
                 return 0;
         }
     }
-
-    public class CompareByBrand : IComparer<Car> {
-        public int Compare(Car a, Car b) {
-            /*if (a.brand > b.brand)
-                return 1;
-            */if (b.price > a.price)
-                return -1;
-            else
-                return 0;
-        }
-    }
 }
