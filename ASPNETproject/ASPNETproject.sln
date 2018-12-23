@@ -5,8 +5,6 @@ VisualStudioVersion = 15.0.28010.2048
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPNETproject", "ASPNETproject\ASPNETproject.csproj", "{B0EF09B1-E2FE-4DBA-B18D-CD1A0B650A83}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPNETproject.Tests", "ASPNETproject.Tests\ASPNETproject.Tests.csproj", "{149B9A9A-CD53-4FD5-8200-62B5538E5CAE}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{B0EF09B1-E2FE-4DBA-B18D-CD1A0B650A83}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0EF09B1-E2FE-4DBA-B18D-CD1A0B650A83}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0EF09B1-E2FE-4DBA-B18D-CD1A0B650A83}.Release|Any CPU.Build.0 = Release|Any CPU
-		{149B9A9A-CD53-4FD5-8200-62B5538E5CAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{149B9A9A-CD53-4FD5-8200-62B5538E5CAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{149B9A9A-CD53-4FD5-8200-62B5538E5CAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{149B9A9A-CD53-4FD5-8200-62B5538E5CAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
