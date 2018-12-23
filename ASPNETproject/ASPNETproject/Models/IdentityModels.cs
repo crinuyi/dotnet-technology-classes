@@ -29,5 +29,15 @@ namespace ASPNETproject.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<ASPNETproject.Models.Figure> Figures { get; set; }
+
+        public System.Data.Entity.DbSet<ASPNETproject.Models.Material> Materials { get; set; }
+
+        public System.Data.Entity.DbSet<ASPNETproject.Models.Classification> Classifications { get; set; }
+
+        public System.Data.Entity.DbSet<ASPNETproject.Models.Producent> Producents { get; set; }
+
+        public System.Data.Entity.DbSet<ASPNETproject.Models.Series> Series { get; set; }
     }
 }
